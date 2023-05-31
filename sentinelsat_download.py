@@ -31,7 +31,7 @@ for product in products:
 # # download all quicklooks
 # api.download_all_quicklooks(products, directory_path='.', n_concurrent_dl=4)
 
-# download all results from the search
+# download all results from the search!
 api.download_all(products)
 
 # convert to Pandas DataFrame
