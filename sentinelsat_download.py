@@ -2,7 +2,7 @@
 from sentinelsat import SentinelAPI, read_geojson, geojson_to_wkt
 from datetime import date
 
-api = SentinelAPI('dualtaofionnagain', 'zed5GfUG8mVG!tU', 'https://scihub.copernicus.eu/dhus/')
+api = SentinelAPI('username', 'password', 'https://scihub.copernicus.eu/dhus/')
 
 lon, lat = -16.26, 16.30
 
